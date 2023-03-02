@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HaVagas</string>
+    <string name="email">Email</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="telefone">Telefone</string>
+    <string name="residencial">Residencial</string>
+    <string name="comercial">Comercial</string>
+    <string name="adicionar_celular">Adicionar Celular</string>
+    <string name="celular">Celular</string>
+    <string name="ano_de_conclusao">Ano de conclusão</string>
+    <string name="instiui_o">Instiuição</string>
+    <string name="titulo_de_monografia">Titulo de monografia</string>
+    <string name="orientador">Orientador</string>
+    <string name="limpar">Limpar</string>
+    <string-array name="formacao">
+        <item>Ensino fundamental</item>
+        <item>Ensino médio</item>
+        <item>Graduação</item>
+        <item>Especialização</item>
+        <item>Mestrado</item>
+        <item>Doutorado</item>
+    </string-array>
+</resources>
