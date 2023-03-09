@@ -1,7 +1,6 @@
 package br.edu.scl.ifsp.ads.havagas
 
 import java.time.LocalDate
-import java.util.*
 
 class Pessoa(
     var nome: String, val email: String, val telefone: Telefone, val tipoTelefone:String, val sexo: String,
