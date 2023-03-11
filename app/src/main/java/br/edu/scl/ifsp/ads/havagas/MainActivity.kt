@@ -15,7 +15,6 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
     companion object{
-        const val TAG = "CICLO_PDM"
         const val NOME = "NOME"
         const val EMAIL = "EMAIL"
         const val TELEFONE = "TELEFONE"
@@ -188,38 +187,5 @@ class MainActivity : AppCompatActivity() {
             activityMainBinding.orientadorEt.setText(savedInstanceState.getString(ORIENTADOR))
         }
     }
-    override fun onStart(){
-        super.onStart()
-        Log.v(TAG,"MainActivity - onStart: Iniciando ciclo de vida visivel")
-
-    }
-    override fun onResume(){
-        super.onResume()
-        Log.v(TAG,"MainActivity - onResume: Iniciando ciclo de vida em primeiro lugar")
-
-    }
-    override fun onRestart(){
-        super.onRestart()
-        Log.v(TAG,"MainActivity - onRestart: Preparando execução do onStart")
-
-    }
-    override fun onPause(){
-        super.onPause()
-        Log.v(TAG,"MainActivity - onPause: Finalizando ciclo de vida em primeiro lugar")
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Log.v(TAG,"MainActivity - onStop: Finalizando ciclo de vida visivel")
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.v(TAG,"MainActivity - onDestroy: Finalizando ciclo de vida completo")
-    }
-
-
-
-
 
 }
